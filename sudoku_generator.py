@@ -1,10 +1,6 @@
 import math,random
 
-"""
-This was adapted from a GeeksforGeeks article "Program for Sudoku Generator" by Aarti_Rathi and Ankur Trisal
-https://www.geeksforgeeks.org/program-sudoku-generator/
-
-"""
+# https://www.geeksforgeeks.org/program-sudoku-generator/
 
 class SudokuGenerator:
     '''
@@ -19,8 +15,7 @@ class SudokuGenerator:
     row_length is the number of rows/columns of the board (always 9 for this project)
     removed_cells is an integer value - the number of cells to be removed
 
-	Return:
-	None
+	Return: None
     '''
     def __init__(self, row_length, removed_cells):
         pass
